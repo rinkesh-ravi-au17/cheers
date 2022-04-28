@@ -6,7 +6,6 @@ app.use(bodyParser.json())
 
 const port = 3008;
 
-
 app.get('/', (req,res) =>{
     res.send('Hello')
 });
